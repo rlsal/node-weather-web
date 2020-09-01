@@ -68,11 +68,6 @@ app.get('/weather', (req, res) => {
         })
     })
 
-    // res.send({
-    //     location: 'Tel Aviv',
-    //     forceast: 'It is ham',
-    //     address: req.query.address
-    // })
 })
 
 app.get('/products', (req, res) => {
